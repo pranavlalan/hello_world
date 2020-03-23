@@ -3,7 +3,7 @@ words_list = ['legend', 'great', 'cricket', 'bowler', 'batsman', 'googly']
 f = open('words_list.txt')
 words_list = f.read().splitlines()
 f.close()
-lives_remaining = 6
+lives_remaining = 5
 word = ''
 all_guesses = []
 correct_guesses = []
