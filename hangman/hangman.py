@@ -86,7 +86,7 @@ def play():
     
     while (lives_remaining > 0):
         get_user_input()
-        if process_user_input():
+        if process_user_input(): # if this returns True, word is guessed correctly
             print_word()
             exit()
         else:
