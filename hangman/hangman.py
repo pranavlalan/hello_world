@@ -1,9 +1,9 @@
 # global variables
 words_list = ['legend', 'great', 'cricket', 'bowler', 'batsman', 'googly']
-f = open('words_list.txt')
+f = open('words_list.txt', 'r', errors='ignore')
 words_list = f.read().splitlines()
 f.close()
-lives_remaining = 5
+lives_remaining = 6
 word = ''
 all_guesses = []
 correct_guesses = []
